@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p className={styles.title}>Color Pallet</p>
+      <p className={styles.title}>Figma Tokens Demo</p>
       <main className={`${styles.main}`}>
         <div className={styles.boxContainer}>
           <div className={styles.grayBox}>
@@ -62,6 +62,16 @@ export default function Home() {
             <div className={styles.seventy}/>
             <div className={styles.eighty}/>
           </div>
+        </div>
+        <div className={styles.textBox}>
+          <p className={styles.heading}>見出し1のみ文字色として使用</p>
+          <p className={styles.default}>本文など、デフォルトの文字色として使用</p>
+          <p className={styles.subtext}>サブテキストに使用</p>
+          <p className={styles.textlink}>テキストリンク、最小文字の注記に使用</p>
+          <p className={styles.notes}>注意書きに使用</p>
+          <p className={styles.form}>入力欄、プレースホルダのテキストに使用</p>
+          <p className={styles.white}>白文字いしたい時に使用</p>
+          <p className={styles.attention}>ログインや申請フォーム等のシステムに失敗した際に使用</p>
         </div>
       </main>
     </>

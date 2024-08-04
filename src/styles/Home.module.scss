@@ -3,6 +3,8 @@ $my-color-box-height: 68px;
 $my-border-radius: 4px;
 $my-border: 1px solid black;
 $my-margin-right: 20px;
+$my-text-font-size: 20px;
+$my-text-margin-top: 20px;
 
 .title {
   font-size: 50px;
@@ -317,6 +319,58 @@ $my-margin-right: 20px;
         background-color: $design-system-purple-80;
         border: $my-border;
       }
+    }
+  }
+
+  >.textBox {
+    >.heading {
+      color: $design-system-color-text-heading;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+    }
+
+    >.default {
+      color: $design-system-color-text-default;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+    }
+
+    >.subtext {
+      color: $design-system-color-text-subtext;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+    }
+
+    >.textlink {
+      color: $design-system-color-text-textlink;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+    }
+
+    >.notes {
+      color: $design-system-color-text-notes;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+    }
+
+    >.form {
+      color: $design-system-color-text-form;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+    }
+
+    >.white {
+      color: $design-system-color-text-white;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
+      width: 220px;
+      background-color: black;
+    }
+
+    >.attention {
+      color: $design-system-color-text-attention;
+      font-size: $my-text-font-size;
+      margin-top: $my-text-margin-top;
     }
   }
 
