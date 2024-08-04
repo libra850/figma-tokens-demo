@@ -1,19 +1,323 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+$my-color-box-width: 131px;
+$my-color-box-height: 68px;
+$my-border-radius: 4px;
+$my-border: 1px solid black;
+$my-margin-right: 20px;
+
+.title {
+  font-size: 50px;
+  padding-left: 6rem;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+.main {
+  align-items: center;
+  padding-left: 6rem;
+
+  >.boxContainer {
+    >.grayBox {
+      display: flex;
+      margin-top: 50px;
+
+      >.ten {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-10;
+        border: $my-border;
+      }
+
+      >.twenty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-20;
+        border: $my-border;
+      }
+
+      >.thirty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-30;
+        border: $my-border;
+      }
+
+      >.forty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-40;
+        border: $my-border;
+      }
+
+      >.fifty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-50;
+        border: $my-border;
+      }
+
+      >.sixty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-60;
+        border: $my-border;
+      }
+
+      >.seventy {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-70;
+        border: $my-border;
+      }
+
+      >.eighty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-gray-80;
+        border: $my-border;
+      }
+    }
+    >.greenBox {
+      display: flex;
+      margin-top: 50px;
+
+      >.ten {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-10;
+        border: $my-border;
+      }
+
+      >.twenty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-20;
+        border: $my-border;
+      }
+
+      >.thirty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-30;
+        border: $my-border;
+      }
+
+      >.forty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-40;
+        border: $my-border;
+      }
+
+      >.fifty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-50;
+        border: $my-border;
+      }
+
+      >.sixty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-60;
+        border: $my-border;
+      }
+
+      >.seventy {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-70;
+        border: $my-border;
+      }
+
+      >.eighty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-green-80;
+        border: $my-border;
+      }
+    }
+    >.pinkBox {
+      display: flex;
+      margin-top: 50px;
+
+      >.ten {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-10;
+        border: $my-border;
+      }
+
+      >.twenty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-20;
+        border: $my-border;
+      }
+
+      >.thirty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-30;
+        border: $my-border;
+      }
+
+      >.forty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-40;
+        border: $my-border;
+      }
+
+      >.fifty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-50;
+        border: $my-border;
+      }
+
+      >.sixty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-60;
+        border: $my-border;
+      }
+
+      >.seventy {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-70;
+        border: $my-border;
+      }
+
+      >.eighty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-pink-80;
+        border: $my-border;
+      }
+    }
+    >.purpleBox {
+      display: flex;
+      margin-top: 50px;
+
+      >.ten {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-10;
+        border: $my-border;
+      }
+
+      >.twenty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-20;
+        border: $my-border;
+      }
+
+      >.thirty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-30;
+        border: $my-border;
+      }
+
+      >.forty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-40;
+        border: $my-border;
+      }
+
+      >.fifty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-50;
+        border: $my-border;
+      }
+
+      >.sixty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-60;
+        border: $my-border;
+      }
+
+      >.seventy {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-70;
+        border: $my-border;
+      }
+
+      >.eighty {
+        margin-right: $my-margin-right;
+        width: $my-color-box-width;
+        height: $my-color-box-height;
+        border-radius: $my-border-radius;
+        background-color: $design-system-purple-80;
+        border: $my-border;
+      }
+    }
+  }
+
 }

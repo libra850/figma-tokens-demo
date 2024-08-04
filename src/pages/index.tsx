@@ -13,9 +13,55 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>This is a Demo of Figma Tokens</p>
+      <p className={styles.title}>Color Pallet</p>
+      <main className={`${styles.main}`}>
+        <div className={styles.boxContainer}>
+          <div className={styles.grayBox}>
+            <div className={styles.ten}/>
+            <div className={styles.twenty}/>
+            <div className={styles.thirty}/>
+            <div className={styles.forty}/>
+            <div className={styles.fifty}/>
+            <div className={styles.sixty}/>
+            <div className={styles.seventy}/>
+            <div className={styles.eighty}/>
+          </div>
+        </div>
+        <div className={styles.boxContainer}>
+          <div className={styles.greenBox}>
+            <div className={styles.ten}/>
+            <div className={styles.twenty}/>
+            <div className={styles.thirty}/>
+            <div className={styles.forty}/>
+            <div className={styles.fifty}/>
+            <div className={styles.sixty}/>
+            <div className={styles.seventy}/>
+            <div className={styles.eighty}/>
+          </div>
+        </div>
+        <div className={styles.boxContainer}>
+          <div className={styles.pinkBox}>
+            <div className={styles.ten}/>
+            <div className={styles.twenty}/>
+            <div className={styles.thirty}/>
+            <div className={styles.forty}/>
+            <div className={styles.fifty}/>
+            <div className={styles.sixty}/>
+            <div className={styles.seventy}/>
+            <div className={styles.eighty}/>
+          </div>
+        </div>
+        <div className={styles.boxContainer}>
+          <div className={styles.purpleBox}>
+            <div className={styles.ten}/>
+            <div className={styles.twenty}/>
+            <div className={styles.thirty}/>
+            <div className={styles.forty}/>
+            <div className={styles.fifty}/>
+            <div className={styles.sixty}/>
+            <div className={styles.seventy}/>
+            <div className={styles.eighty}/>
+          </div>
         </div>
       </main>
     </>
