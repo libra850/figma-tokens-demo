@@ -12,7 +12,7 @@
 
 ```mermaid
 graph TD;
-  Figma -- FigmaTokens(Plugin) -- Github;
+  Figma -- FigmaTokens(Plugin) --> Github;
 ```
 
 ・[StyleDictionary](https://amzn.github.io/style-dictionary/#/)
