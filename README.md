@@ -26,3 +26,9 @@ npx style-dictionary build
 # Local環境でStoryBookを起動
 npm run storybook
 ```
+
+・[Plop](https://plopjs.com/)
+```bash
+# 新しいコンポーネントをStoryBookに追加する際に実行
+yarn plop
+```
