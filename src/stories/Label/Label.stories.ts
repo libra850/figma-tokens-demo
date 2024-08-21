@@ -16,7 +16,7 @@ type Story = StoryObj<typeof meta>;
 export const ExitLabel: Story = {
   args: {
     name: 'IPO',
-    type: 'exit'
+    type: 'exit',
   },
 };
 

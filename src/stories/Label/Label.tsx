@@ -9,14 +9,12 @@ export interface LabelProps {
 export const Label = ({
   name,
   type,
-  ...props
 }: LabelProps) => {
   return (
-    <label
-      className={['storybook-label', `${type}`].join(' ')}
-      {...props}
-    >
-      {name}
-    </label>
+    <div className={['storybook-label'].join(' ')}>
+      <label className={[`${type}`].join(' ')}>
+        {name}
+      </label>
+    </div>
   );
 };
