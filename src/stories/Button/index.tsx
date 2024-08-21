@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.scss';
+import './index.scss';
 
 export interface ButtonProps {
   primary?: boolean;

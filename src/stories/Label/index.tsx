@@ -1,5 +1,5 @@
 import React from 'react';
-import './label.scss';
+import './index.scss';
 
 export interface LabelProps {
   type: 'exit' | 'series' | 'investor';
